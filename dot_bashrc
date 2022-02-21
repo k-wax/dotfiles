@@ -28,7 +28,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias path='echo -e ${PATH//:/\\n}'
 
-alias o=xdg-open
+alias o='xdg-open'
 
 export LESS='-i -N -w  -z-4 -g -e -M -X -F -R -P%t?f%f \
 :stdin .?pb%pb\%:?lbLine %lb:?bbByte %bb:-...'
