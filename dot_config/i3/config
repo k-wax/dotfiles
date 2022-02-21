@@ -18,6 +18,19 @@ font pango:Anonymous Pro Bold 11
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
+set $bg-color	         #2f343f
+set $border-color        #666666
+set $inactive-bg-color   #2f343f
+set $text-color          #f3f4f5
+set $inactive-text-color #676E7D
+set $urgent-bg-color     #E53935
+set $active-window       #dbdde0
+
+# window                border             background         text                 indicator	    child_border
+client.focused          $border-color      $bg-color          $text-color          $active-window	$active-window
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color $active-window
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color $active-window
+client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color          $active-window
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
