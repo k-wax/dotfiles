@@ -200,6 +200,6 @@ for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [class="(?i)Remote-viewer"] floating enable
 for_window [class="(?i)Ida"] floating enable
-for_window [class="firefox"] border none
+for_window [class="(?i)firefox"] border none
 
 exec "udiskie --tray"
