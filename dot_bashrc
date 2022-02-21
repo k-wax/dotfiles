@@ -7,11 +7,6 @@
 
 shopt -s cdspell
 
-
-
-
-#alias la='ls -A'
-
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd ..'
