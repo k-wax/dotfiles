@@ -8,16 +8,18 @@
 shopt -s cdspell
 
 
-#alias ls='ls --color=auto'
-#alias ll='ls -l'
+
+
 #alias la='ls -A'
-alias l='ls -CF'
+
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd ..'
 
 # The 'ls' family (this assumes you use the GNU ls)
 alias ls='ls -hF --color'	# add colors for filetype recognition
+alias l='ls -C'
+alias ll='ls -l'
 alias lx='ls -hlXB'		# sort by extension
 alias lk='ls -hlSr'		# sort by size
 alias la='ls -hAl'		# show hidden files
