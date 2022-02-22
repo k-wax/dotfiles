@@ -1,0 +1,10 @@
+@theme "/usr/share/rofi/themes/sidebar.rasi"
+
+configuration {               
+  modi: "drun,ssh,run";
+  font: "Jira Code 12";
+  ml-row-down: "ScrollDown";
+  me-select-entry: "MousePrimary";
+  me-accept-entry: "MouseDPrimary";
+  me-accept-custom: "Control+MouseDPrimary";
+  }
