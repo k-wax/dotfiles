@@ -214,9 +214,9 @@ bindsym $mod+r mode "resize"
 	                urgent_workspace   #2f343a #900000 #ffffff
 	        }
 	        i3bar_command /usr/bin/i3bar
-	        # status_command i3status
+		position top
 	        status_command SCRIPT_DIR=~/.config/i3blocks i3blocks
-	        font pango:Hack, FontAwesome 17
+	        font pango:FontAwesome 12
 	        #mode hide
 	        #hidden_state hide
 	        #modifier $mod
