@@ -216,7 +216,7 @@ bindsym $mod+r mode "resize"
 	        i3bar_command /usr/bin/i3bar
 		position top
 	        status_command SCRIPT_DIR=~/.config/i3blocks i3blocks
-	        font pango:FontAwesome 12
+	        font pango: Anonymous Pro Bold 11
 	        #mode hide
 	        #hidden_state hide
 	        #modifier $mod
