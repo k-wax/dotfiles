@@ -1,7 +1,7 @@
 @theme "/usr/share/rofi/themes/sidebar.rasi"
 
 configuration {               
-  modi: "drun,ssh,run";
+  modi: "drun,ssh,run,window";
   font: "Jira Code 12";
   ml-row-down: "ScrollDown";
   me-select-entry: "MousePrimary";
