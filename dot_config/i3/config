@@ -32,8 +32,7 @@ client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-col
 client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color $active-window
 client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color          $active-window
 
-# Start XDG autostart .desktop files using dex. See also
-# https://wiki.archlinux.org/index.php/XDG_Autostart
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id indicator-kdeconnect
 #exec --no-startup-id udiskie --tray
@@ -196,4 +195,3 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
