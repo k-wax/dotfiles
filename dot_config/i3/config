@@ -71,7 +71,8 @@ bindsym --whole-window $mod+button2 kill
 bindsym --release button2 kill
 
 # rofi
-bindcode $mod+40 exec "rofi -modi drun,run -show drun"
+#bindcode $mod+40 exec "rofi -modi drun,run -show drun"
+bindcode $mod+40 exec rofi
 
 # change focus
 bindsym $mod+j focus left
