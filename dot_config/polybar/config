@@ -79,7 +79,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:100:...%
+label = %title:20:140:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard
