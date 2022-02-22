@@ -72,7 +72,7 @@ bindsym --release button2 kill
 
 # rofi
 #bindcode $mod+40 exec "rofi -modi drun,run -show drun"
-bindcode $mod+40 exec "rofi -show combi -width 35 -lines 6"
+bindcode $mod+40 exec "rofi -combi-modi window,drun,ssh -theme solarized -show combi"
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
