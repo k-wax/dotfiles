@@ -79,7 +79,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %%
+label = %none%
 label-maxlen = 250
 label-empty = Empty
 
