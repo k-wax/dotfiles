@@ -80,7 +80,7 @@ cursor-scroll = ns-resize
 [module/xwindow]
 type = internal/xwindow
 label = %title%
-label-maxlen = 50
+label-maxlen = 250
 label-empty = Empty
 
 [module/xkeyboard]
