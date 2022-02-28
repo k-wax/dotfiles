@@ -35,7 +35,7 @@ client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color       
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id indicator-kdeconnect
-#exec --no-startup-id udiskie --tray
+exec --no-startup-id udiskie --tray
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 hide_edge_borders smart
