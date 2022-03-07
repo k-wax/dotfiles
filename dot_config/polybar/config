@@ -80,7 +80,7 @@ cursor-scroll = ns-resize
 [module/xwindow]
 type = internal/xwindow
 label = %title%
-label-maxlen = 250
+label-maxlen = 200
 label-empty = Empty
 
 [module/xkeyboard]
@@ -264,7 +264,7 @@ type = internal/date
 interval = 5
 
 date =
-date-alt = " %Y-%m-%d"
+date-alt = " %d %b"
 
 time = %H:%M
 time-alt = %H:%M:%S
