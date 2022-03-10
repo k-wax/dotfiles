@@ -44,7 +44,7 @@ for_window [class="firefox"] border none
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [class="(?i)Remote-viewer"] floating enable
-for_window [class="(?i)emmina"] floating enable
+for_window [class="(?i)emmina"] fullscreen
 for_window [class="(?i)Ida"] floating enable
 org.remmina.Remmina
 
