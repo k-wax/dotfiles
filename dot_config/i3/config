@@ -45,7 +45,6 @@ for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [class="(?i)Remote-viewer"] floating enable
 for_window [class="(?i)Ida"] floating enable
-org.remmina.Remmina
 
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
