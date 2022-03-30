@@ -17,7 +17,7 @@ font pango:Anonymous Pro Bold 11
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+
 set $bg-color	         #2f343f
 set $border-color        #666666
 set $inactive-bg-color   #2f343f
