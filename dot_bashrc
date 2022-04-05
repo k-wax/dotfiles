@@ -21,7 +21,10 @@ alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd ..'
 
 # The 'ls' family (this assumes you use the GNU ls)
-alias ls='ls -hF --color'	# add colors for filetype recognition
+
+alias ls='lsd'
+
+# alias ls='ls -hF --color'	# add colors for filetype recognition
 alias l='ls -C'
 alias ll='ls -l'
 alias lx='ls -hlXB'		# sort by extension
