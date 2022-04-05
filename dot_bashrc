@@ -26,6 +26,7 @@ alias ls='lsd'
 
 # alias ls='ls -hF --color'	# add colors for filetype recognition
 # alias l='ls -C'
+alias l='ls -l'
 alias ll='ls -l'
 alias lx='ls -hlXB'		# sort by extension
 alias lk='ls -hlSr'		# sort by size
