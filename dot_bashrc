@@ -25,7 +25,7 @@ alias ....='cd ..; cd ..; cd ..'
 alias ls='lsd'
 
 # alias ls='ls -hF --color'	# add colors for filetype recognition
-alias l='ls -C'
+# alias l='ls -C'
 alias ll='ls -l'
 alias lx='ls -hlXB'		# sort by extension
 alias lk='ls -hlSr'		# sort by size
@@ -33,7 +33,7 @@ alias la='ls -hAl'		# show hidden files
 alias lr='ls -hlR'		# recursice ls
 alias lt='ls -hltr'		# sort by date
 alias lm='ls -hal |more'		# pipe through 'more'
-alias tree='tree -Cs'		# nice alternative to 'ls'
+# alias tree='tree -Cs'		# nice alternative to 'ls'
 
 alias rm='rm -i'
 alias cp='cp -i'
