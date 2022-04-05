@@ -97,14 +97,14 @@ dynamic_padding: true
 
 font:
     normal:
-        family: Hack Regular Nerd Font
+        family: Hack Nerd Font Mono
         style: Regular
     bold:
-        family: Hack Regular Nerd Font
+        family: Hack Nerd Font Mono
         style: Bold
     italic:
-        family: Hack Regular Nerd Font
-        style: Italic 
+        family: Hack Nerd Font Mono
+        style: Italic
 
     # Point size of the font
     size: 12
