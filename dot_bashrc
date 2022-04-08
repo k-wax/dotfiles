@@ -14,8 +14,6 @@ HISTFILESIZE=2000000
 HISTCONTROL=ignoreboth
 HISTIGNORE='ls:ll:la:lx:lr:lt:lm:lk: -alh:pwd:clear:history'
 
-
-
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd ..'
